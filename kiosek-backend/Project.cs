@@ -198,7 +198,7 @@ public class Project(
         }
     }
 
-public static List<Project> GetPreviewProjects()
+    public static List<Project> GetPreviewProjects()
 {
     List<Project> projects = new List<Project>();
     MySqlConnection conn = new MySqlConnection(Database.connectionString);
@@ -238,7 +238,6 @@ public static List<Project> GetPreviewProjects()
         }
     }
 }
-
 
     public static List<Project> GetPreviewProjects(string token)
     {

@@ -17,7 +17,7 @@ public class Database
     /// </summary>
     private static MySqlConnection sqlConnection;
 
-    public static string connectionString = "Server=localhost; Port=3306; Database=kiosek; User Id=kiosek-user; Password=0995/2006!Dominik!;";
+    public static string connectionString = "Server=localhost; Port=3306; Database=kiosek; User Id=root; Password=;";
     
     /// <summary>
     /// Initializes a new instance of the <see cref="Database"/> class.
