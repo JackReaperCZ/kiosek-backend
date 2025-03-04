@@ -19,9 +19,7 @@ public class Program
         {
             options.AddPolicy("AllowAll", policy =>
             {
-                policy.AllowAnyOrigin()
-                    .AllowAnyMethod()
-                    .AllowAnyHeader();
+                policy.AllowAnyHeader().AllowAnyMethod().AllowCredentials().AllowAnyOrigin();
             });
         });
 
